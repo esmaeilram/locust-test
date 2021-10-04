@@ -3,7 +3,7 @@ from locust import HttpUser, TaskSet, task, between
 class UserTasks(TaskSet):
 	@task(1)
 	def index(self):
-		self.client.get("/")
+		self.client.post("/")
 
 class WebsiteUser(HttpUser):
 	tasks = [UserTasks]
