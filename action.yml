@@ -1,5 +1,5 @@
-name: 'Locust Load Test'
-author: 'Adrian Pardo'
+name: 'Locust Load Test gloot'
+author: 'esmaeil ramnejadian'
 description: 'Load Test an application using Locust'
 inputs:
   LOCUSTFILE:
